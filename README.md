@@ -62,3 +62,36 @@ Core infrastructure and frameworks for deploying and running autonomous agents.
 
 - [Virtuals](https://www.virtuals.io) - Tokenized AI agent platform enabling decentralized co-ownership and monetization across gaming, entertainment, and DeFi applications.
 - [Moltline](https://www.moltline.com) - Private direct messaging infrastructure for Molts. Persistent agent handles, inboxes, and peer-to-peer communication channels.
+
+## Alternative Claw Agents
+
+- [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) - Rewritten in Rust. Very lightweight (5 MB RAM, starts in 10 ms), secure (secrets encrypted locally), has a memory migration utility from OpenClaw. Ideal for weak hardware and if you are comfortable with Rust.
+- [NanoClaw](https://github.com/qwibitai/nanoclaw) - Agents run in isolated Apple Containers (secure bash). Main feature: Agent Swarms support — a swarm of specialized agents working together.
+- [Moltis](https://www.moltis.org/) - Rust (single binary, 60 MB). Full sandbox (Docker/Podman), hybrid memory, support for any LLM and MCP servers. No telemetry, MIT license. Created for those who want full control and code audit.
+- [Nanobot](https://github.com/HKUDS/nanobot) - Lightweight Python agent (only 4000 lines). Widest platform support out of the box (WhatsApp, Telegram, Slack, Discord). Works great on Raspberry Pi.
+- [PicoClaw](https://github.com/sipeed/picoclaw) - Ultralight assistant in Go. Consumes less than 10 MB RAM, loads in 1 second. Inspired by Nanobot architecture, but even faster.
+- [TrustClaw](https://www.trustclaw.app/) - Turnkey solution. Fully managed cloud, connection via OAuth. The agent does not see your API keys, everything is isolated. Best choice if you don't want to administer servers.
+- [IronClaw](https://github.com/nearai/ironclaw) - Project from NEAR AI. Tools run in WASM containers with strict access rights. API keys are architecturally isolated from tool code.
+- [GoClaw](https://github.com/nextlevelbuilder/goclaw) - Multi-agent AI gateway with teams, delegation & orchestration. Single Go binary, 11+ LLM providers, 5 channels.
+
+## Hosting Solutions
+
+- [Moltworker](https://github.com/cloudflare/moltworker) - Running OpenClaw inside Cloudflare network (Sandbox/Workers). Cloud execution, but under your control. Centralized key management and built-in browser for automation.
+- [Kimi Claw](https://www.kimi.com/resources/kimi-claw-introduction) - Kimi Claw eliminates complex local setups by deploying OpenClaw to the cloud in seconds. Plus, it offers 24/7 uptime, 40GB storage, and 5,000+ skills—no VPS, no hardware limits.
+- [ClawHost](https://clawhost.cloud/) - Production-ready infrastructure with one-click OpenClaw deployment, handled end to end — build, ship, and move faster with AI.
+
+## Discovery & Monitoring
+
+Tools for discovering, monitoring, and understanding the agent ecosystem.
+
+- [ClawScan](https://clawscan.io) - OpenClaw tool directory and project index. Discover available agent tools, services, and infrastructure.
+- [ClawNexus](https://github.com/SilverstreamsAI/ClawNexus) - Daemon that discovers OpenClaw instances on your network (mDNS, UDP broadcast, HTTP probing), assigns human-readable names, and relays connections across networks. CLI + SDK + OpenClaw Skill included.
+- [ClawFOMO](https://clawfomo.com) – A real-time sentiment and trend tracker for the OpenClaw ecosystem. Monitors agent activity spikes, viral "clawks," and emerging on-chain movements.
+- [Hotmolts](https://www.hotmolts.com) – A live ranking and discovery engine that tracks the most "influential" agents based on social graph metrics and engagement. The "Forbes 100" for the Molt universe, highlighting the agents currently dominating the digital zeitgeist.
+- [MoltMatch](https://moltmatch.xyz) – A specialized discovery tool for agent-to-agent collaboration. It functions as an autonomous matching service where agents find compatible partners for joint ventures, co-authored threads, or shared "dreams" on MyDeadInternet.
+
+
+## Related
+
+- [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) - The awesome collection of OpenClaw Skills
+- [Virtuals Protocol ACP](https://github.com/Virtual-Protocol/openclaw-acp) - Agent Commerce Protocol skill pack enabling agents to browse, discover, and transact using Virtuals Protocol primitives.
