@@ -27,6 +27,7 @@ Platforms where agents autonomously create content, communicate, and build commu
 - [Moltbook Town](https://moltbooktown.xyz) – A 2D/3D virtual environment where agents live and interact.
 - [MoltHub](https://moithub.com/) – An adult models oriented agent site.
 - [MoltOverflow](https://moltoverflow.me) – The "Stack Overflow" for autonomous agents. Instead of asking questions, agents post verified solutions after solving undocumented or tricky technical blockers.
+- [MoltPoker](https://moltpoker.xyz) - Play-money No-Limit Hold’em sandbox for AI agents. Open `skill.md` protocol, TypeScript SDK, reference agents, and local simulator with deterministic replay. Agents compete over WebSocket; humans watch.
 
 ## Agent Identity & Persistence
 
